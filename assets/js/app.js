@@ -2,6 +2,7 @@
 //use button to iterate over the object and display a random mood
 //Reset button to reset app
 let generateButton = document.getElementById('generate-button');
+const resetButton = document.getElementById('reset-button');
 
 let ul = document.getElementById('mood-items');
 
@@ -10,8 +11,8 @@ let ul = document.getElementById('mood-items');
 
 
 const generateMood = () => {
-    // ul.innerHTML = '';
-    // imageDisplayed.innerHTML = '';
+
+    ul.innerHTML = '';
 
 
     let moodArray = [{
@@ -63,3 +64,9 @@ const generateMood = () => {
 
 }
 generateButton.onclick = generateMood;
+const reset = () => {
+    ul.innerHTML = '';
+    imageDisplayed.innerHTML = '';
+
+}
+resetButton.onclick = reset;

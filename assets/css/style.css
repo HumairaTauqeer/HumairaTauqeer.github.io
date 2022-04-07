@@ -82,6 +82,8 @@ ul {
 
 ul li {
     text-align: center;
+    padding-top: 1rem;
+    font-weight: bold;
 }
 
 @media only screen and (max-width:450px) {
