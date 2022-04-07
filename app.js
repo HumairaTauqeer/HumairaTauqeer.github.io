@@ -16,12 +16,12 @@ const generateMood = () => {
 
 
     let moodArray = [{
-            image: './images/happy-image.jpg',
+            image: './assets/images/happy-image.jpg',
             name: 'Hey you are happy!',
             message: 'Have a joyful day!'
         },
         {
-            image: './images/sad-image.jpg',
+            image: './assets/images/sad-image.jpg',
             name: 'You look gloomy ...',
             message: "Dont be sad! there must be something great coming your way"
         },
@@ -31,12 +31,12 @@ const generateMood = () => {
             message: 'Have a joyful day!'
         },
         {
-            image: './images/dance-image.gif',
+            image: './assets/images/dance-image.gif',
             name: 'Hey! Great to see you chilling!',
             message: 'Keep dancing!'
         },
         {
-            image: './images/angry-image.png',
+            image: './assets/images/angry-image.png',
             name: 'Why you look so mad!',
             message: 'Calm down! Anger is injurious to health!'
         }
