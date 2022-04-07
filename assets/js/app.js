@@ -26,7 +26,7 @@ const generateMood = () => {
             message: "Dont be sad! there must be something great coming your way"
         },
         {
-            image: './images/happy-image.jpg',
+            image: './assets/images/happy-image.jpg',
             name: 'Hey you are happy!',
             message: 'Have a joyful day!'
         },
